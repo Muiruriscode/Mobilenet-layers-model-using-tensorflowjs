@@ -1,4 +1,4 @@
-# Pre-trained Mobilenet classifier using mobilenet v2 layers model
+# Mobilenet classifier using mobilenet v2 layers model
 This is a project using the pre-trained moblienet classifier from tensorflow hub. It is is already trained with to detect 1000 objects. You can add capabilities to the model to detect your own custom objects. This is  users a graph model enabling one to make changes to layers of mobilenet layers.
 
 ## About
