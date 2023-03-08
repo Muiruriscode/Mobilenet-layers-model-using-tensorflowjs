@@ -1,0 +1,47 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #FF6F00;
+  }
+  
+  
+  video {
+    clear: both;
+    display: block;
+    margin: 10px;
+    background: #000000;
+    width: 640px;
+    height: 480px;
+  }
+  
+  button {
+    float: left;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(253, 101, 233);
+    border:2px solid rgb(253, 0, 253);
+    box-shadow: 2px 2px 1px rgba(253,0,253,0.5);
+    margin: 0 5px;
+  }
+button:hover {
+  transition: all 0.1s ease-in;
+  background-color: rgb(255, 78, 231);
+  border:2px solid rgb(221, 6, 221);
+}
+  ol {
+    clear: both;
+    margin-top: 90px;
+  }
+  
+  .removed {
+    display: none;
+  }
+  
+  #status {
+    font-size:150%;
+  }
