@@ -129,7 +129,7 @@ async function trainAndPredict() {
     oneHotOutputs.dispose();
     inputsAsTensor.dispose();
 
-  //cobine the two models
+  //combine the two models
     let combinedModel = tf.sequential()
     combinedModel.add(mobileNetBase)
     combinedModel.add(model)
